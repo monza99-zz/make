@@ -1,0 +1,189 @@
+turnLeft();
+for (var count = 0; count < 2; count++) {
+  moveForward();
+}
+destroyBlock();
+for (var count2 = 0; count2 < 2; count2++) {
+  moveForward();
+  destroyBlock();
+}
+turnRight();
+destroyBlock();
+moveForward();
+turnRight();
+moveForward();
+turnLeft();
+destroyBlock();
+moveForward();
+turnLeft();
+moveForward();
+ifBlockAhead("water", function() {
+  placeBlockAhead("bedrock");
+});
+for (var count3 = 0; count3 < 3; count3++) {
+  moveForward();
+}
+turnLeft();
+for (var count4 = 0; count4 < 3; count4++) {
+  moveForward();
+}
+turnRight();
+destroyBlock();
+for (var count5 = 0; count5 < 2; count5++) {
+  moveForward();
+}
+turnLeft();
+for (var count6 = 0; count6 < 2; count6++) {
+  moveForward();
+}
+shear();
+turnLeft();
+moveForward();
+turnRight();
+for (var count7 = 0; count7 < 2; count7++) {
+  moveForward();
+}
+turnLeft();
+shear();
+turnRight();
+moveForward();
+shear();
+turnRight();
+for (var count8 = 0; count8 < 2; count8++) {
+  moveForward();
+}
+turnLeft();
+moveForward();
+shear();
+turnLeft();
+moveForward();
+turnRight();
+moveForward();
+turnLeft();
+for (var count9 = 0; count9 < 2; count9++) {
+  moveForward();
+}
+shear();
+turnRight();
+moveForward();
+turnLeft();
+moveForward();
+ifBlockAhead("water", function() {
+  placeBlockAhead("bedrock");
+});
+for (var count10 = 0; count10 < 3; count10++) {
+  moveForward();
+}
+turnLeft();
+destroyBlock();
+turnRight();
+for (var count11 = 0; count11 < 4; count11++) {
+  moveForward();
+}
+turnLeft();
+moveForward();
+destroyBlock();
+moveForward();
+turnRight();
+for (var count12 = 0; count12 < 4; count12++) {
+  moveForward();
+}
+ifBlockAhead("lava", function() {
+  placeBlockAhead("bedrock");
+});
+for (var count13 = 0; count13 < 3; count13++) {
+  moveForward();
+}
+turnRight();
+for (var count14 = 0; count14 < 2; count14++) {
+  destroyBlock();
+  moveForward();
+}
+turnLeft();
+destroyBlock();
+moveForward();
+turnLeft();
+for (var count15 = 0; count15 < 2; count15++) {
+  destroyBlock();
+  moveForward();
+}
+moveForward();
+ifBlockAhead("lava", function() {
+  placeBlockAhead("bedrock");
+});
+for (var count16 = 0; count16 < 4; count16++) {
+  moveForward();
+}
+placeBlock("logOak");
+for (var count17 = 0; count17 < 2; count17++) {
+  moveForward();
+  placeBlock("planksOak");
+}
+moveForward();
+placeBlock("logOak");
+turnLeft();
+for (var count18 = 0; count18 < 2; count18++) {
+  moveForward();
+  placeBlock("planksOak");
+}
+moveForward();
+placeBlock("logOak");
+turnLeft();
+moveForward();
+moveForward();
+placeBlock("glass");
+moveForward();
+placeBlock("logOak");
+turnLeft();
+for (var count19 = 0; count19 < 2; count19++) {
+  moveForward();
+  placeBlock("planksOak");
+}
+turnLeft();
+moveForward();
+placeTorch();
+moveForward();
+turnLeft();
+for (var count20 = 0; count20 < 3; count20++) {
+  moveForward();
+}
+turnLeft();
+for (var count21 = 0; count21 < 4; count21++) {
+  moveForward();
+}
+placeBlockAhead("farmlandWet");
+moveForward();
+turnRight();
+for (var count22 = 0; count22 < 3; count22++) {
+  placeBlockAhead("farmlandWet");
+  moveForward();
+}
+turnRight();
+moveForward();
+turnRight();
+moveForward();
+turnLeft();
+moveForward();
+turnLeft();
+destroyBlock();
+moveForward();
+turnLeft();
+moveForward();
+moveForward();
+plantCrop();
+turnLeft();
+for (var count23 = 0; count23 < 4; count23++) {
+  plantCrop();
+  moveForward();
+}
+turnLeft();
+for (var count24 = 0; count24 < 3; count24++) {
+  moveForward();
+}
+turnLeft();
+moveForward();
+turnRight();
+moveForward();
+for (var count25 = 0; count25 < 2; count25++) {
+  moveForward();
+}
